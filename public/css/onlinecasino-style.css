@@ -1,0 +1,258 @@
+.casino_custom .numbers {
+    font-size: 25px;
+    background: #f5f5f5;
+    color: #64b8de;
+    text-align: center;
+  }
+  .casino_custom .numbers.first {
+    background: linear-gradient(42deg, #529fd6, #58c1d8);
+    color: #fff;
+    position: relative;
+  }
+  .casino_custom .casino_logo {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .casino_custom .casino_logo img {
+    max-width: 130px;
+  }
+  
+  .casino_custom .casino_logo h3 {
+    font-size: 10px;
+    text-transform: unset;
+    text-align: center;
+    line-height: normal;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #1d3450;
+  }
+  .casino_custom .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        max-width: 150px;
+  }
+  .casino_list .btn-primary a {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .casino_custom .list.features ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .casino_custom .list.features ul li {
+    font-size: 12px;
+    color: #1d3450;
+  }
+  .casino_custom .list.games ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5px 0;
+    float: left;
+  }
+  .casino_custom .list.games ul li {
+    position: relative;
+    float: left;
+    margin: 0 8px 2px 0;
+    font-size: 12px;
+    color: #8b8b8b;
+    line-height: 15px;
+  }
+  .casino_custom .list.games ul li.active {
+    color: #000;
+  }
+  .casino_custom .list.games ul li i {
+    color: #fc4576;
+  }
+  .casino_custom .list.methods ul {
+    margin: 0 0 5px 0;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+  }
+  .casino_custom .list.methods ul li {
+    margin: 0 16px 0 0;
+    line-height: 27px;
+    padding: 0;
+    float: left;
+  }
+  .casino_custom .list.methods ul li img {
+    max-width: 40px;
+  }
+  /* .casino_custom .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border: 0px solid transparent;
+  } */
+  .casino_custom .table tr:not(:last-child) th,
+  .casino_custom .table tr:not(:last-child) td {
+    border-bottom: 15px solid #efeded !important;
+  }
+  .casino_custom .table-responsive table {
+    margin: 0;
+  }
+  .casino_custom .table-responsive {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1607843137);
+  }
+  .casino_custom a { 
+      text-decoration: none !important;
+  }
+  .casino_custom .table tr th,
+  .casino_custom .table tr td {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    vertical-align: middle;
+  }
+.casino_custom span.head {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #fc4576;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    line-height: 14px;
+    margin: 0 0 10px 0;
+  }
+  .casino_custom .casino_logo .flag {
+    max-width: 50px;
+  }
+  .casino_custom tr {
+    vertical-align: middle;
+  }
+  .casino_custom .casino-button {
+    min-width: 182px;
+    padding: 13px 0;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.2s ease-out;
+    width: auto;
+    text-align: center;
+    background: linear-gradient(76deg, #f51380, #fc4576);
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .casino_custom .signup_bonus {
+    text-align: center;
+    font-weight: 700;
+    color: #1d3450;
+    font-size: 24px;
+    line-height: 25px;
+  }
+.casino_custom .signup_bonus span.upto {
+  display: block;
+  font-size: 13px;
+  font-weight: 400; 
+}
+  .casino_custom .review-link {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffc107;
+    transition: color 0.3s ease-out;
+    padding: 13px 0;
+    text-decoration: none;
+  }
+  .casino_custom .review-link i {
+    color: #263f5e;
+  }
+  .casino_custom .row--rating a {
+    text-decoration: none;
+  }
+  .casino_custom .star-rating i {
+    color: #ffc107;
+  }
+  .casino_custom th {
+    text-align: center;
+  }
+  .casino_custom .star-rating {
+    border: 0;
+    float: left;
+    position: relative;
+    width: 120px;
+  }
+  .casino_custom .star-rating .cornerimage {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .casino_custom .star-rating img {
+    max-width: 120px;
+  }
+  .casino_custom .row--rating {
+      display: flex;
+      flex-direction: column;
+  }
+            .casino_form {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.casino_form .form-label {
+  font-weight: 500;
+}
+.casino_form .form-control {
+  background: #f2f2f2;
+}
+.casino_form .form-check-input {
+    margin: 0.4rem .25rem 0 -1.5em;
+}
+.show_mobile {
+    display: none !important;
+}
+@media only screen and (max-width: 767px) {
+    .hide_mbl {
+        display: none;
+    }
+    .show_mobile {
+        display: flex !important;
+    align-items: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .casino_custom .casino_logo img {
+    max-width: 80px;
+}
+    .casino_custom .casino-button {
+    min-width: 90px;
+    padding: 6px 0;
+    font-size: 13px;
+}
+.casino_custom .numbers {
+    font-size: 15px;
+}
+.casino_custom .signup_bonus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.casino_custom .casino_logo h3 {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .casino_custom .star-rating img {
+     max-width: 70px;
+ }
+ .casino_custom .star-rating {
+     width: 70px;
+ }
+ .casino_custom .table tr th, .casino_custom .table tr td {
+     text-align: center;
+ }
+}
+@media only screen and (min-width: 1300px) {
+      .casino_custom .list {
+        max-width: 250px;
+  }
+  .casino_custom .numbers {
+      padding: 0 20px;
+  }
+}
